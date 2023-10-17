@@ -358,11 +358,11 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="homeContact__form">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter name*">
-                                        <input type="email" placeholder="Enter mail*">
-                                        <input type="number" placeholder="Enter number*">
-                                        <textarea name="message" placeholder="Enter Massage*"></textarea>
+                                    <form onsubmit="sendEmail(); reset(); return false;">
+                                        <input type="text" placeholder="Enter name*" id="name">
+                                        <input type="email" placeholder="Enter mail*" id="email">
+                                        <input type="number" placeholder="Enter number*" id="phone">
+                                        <textarea name="message" placeholder="Enter Massage*" id="message"></textarea>
                                         <button type="submit">Send Message</button>
                                     </form>
                                 </div>
@@ -446,6 +446,7 @@
         <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/form.js"></script>
         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/element-in-view.js"></script>
