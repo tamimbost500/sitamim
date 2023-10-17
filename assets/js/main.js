@@ -408,23 +408,6 @@ function wowAnimation() {
 	wow.init();
 }
 
-// function sendEmail(){
-// 	Email.send({
-// 		Host : "smtp.elasticemail.com",
-// 		Username : "auxiliaryprogrammer@gmail.com",
-// 		Password : "2A43BAD2E699B1C708D4377A7F4D2093041F",
-// 		// secureToken:" d99ddcc7-664f-4d08-a575-70d5e58b79b0",
-// 		secureToken:"b7393f11-0522-4e2f-a81d-1f01392c6faf",
-// 		To : 'sitamim500@gmail.com',
-// 		From : document.getElementById("email").nodeValue,
-// 		Subject : "This Mail From Your Personal Website",
-// 		Body : "Name:" + document.getElementById("name").value
-// 			   + "<br> Email:" + document.getElementById("email").value	
-// 			   + "<br> Phone:" + document.getElementById("phone").value
-// 			   + "<br> Message:" + document.getElementById("message").value
-// 	}).then(
-// 	  message => alert("Message Sent Succesfully")
-// 	);
-// }
+
 
 })(jQuery);
